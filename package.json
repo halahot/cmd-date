@@ -2,6 +2,9 @@
   "name": "cmd-time",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "cmd-date": "date.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "date-fns": "^4.1.0",
     "yargs": "^18.0.0"
   }
 }
