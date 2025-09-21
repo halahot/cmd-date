@@ -2,14 +2,14 @@
   "name": "cmd-time",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "guess-number": "./guess-number"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "yargs": "^18.0.0"
-  }
+  "description": ""
 }
